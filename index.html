@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+  
+</head>
+<body>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+       <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="Navbar">
+        <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">contact</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="home-text">
+            <h1>Hi, I'm <span style="color:#fff;">Hemant Singh</span><br/>a BCA Student</h1>
+            <p>I'm a passionate web developer creating modern and responsive designs.</p>
+            
+            <div class="social-icons mt-3">
+                 <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+              <a href="er.html" download="Hemant_Singh_Profile.docx">
+                <button class="btn btn-warning">Download Profile</button>
+             </a>
+
+          </div>
+        </div>
+        <div class="col-md-6 text-center" style="padding: 50px;" >
+          <img src="image/ew.jpg" alt="Profile Image" class="img-fluid rounded shadow" id="imh">
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- About -->
+<section id="about" class="about-section mt-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Text Section (Without Card) -->
+      <div class="col-md-6">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          Hello, my name is Hemant Singh and I am currently pursuing my BCA from Ajmer. 
+          I have a strong passion for web development and I aim to become a full-stack developer. 
+          I am skilled in HTML, CSS, Java, and have worked with programming languages like C++ and Java 
+          along with front-end technologies like HTML and CSS.
+        </p>
+        <h5><span style="color:orange;">Father's Name</span> :- Prabhu Singh</h5>
+        <h5><span style="color:orange;">Mother's Name</span> :- Jatan</h5>
+        <h5><span style="color:orange;">Email ID</span>       :- singhhemant2945@gmail.com</h5>
+        <h5><span style="color:orange;">Phone Number</span>       :- 7733988086</h5>
+        <h5><span style="color:orange;">Address</span>     :- Ajmer,Rajasthan.</h5>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-md-6 mt-4 mt-md-0 d-flex justify-content-center" >
+        <img src="image/a3.jpg" alt="Profile" class="img-fluid rounded" style="max-height: 500px;width: 400px; border-radius: 15%;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+ <section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="section-title text-center">My Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-md-6">
+        <div class="skill-item">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-md-6">
+        <div class="skill-item">
+          <h5>CSS</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col-md-6">
+        <div class="skill-item">
+          <h5>C</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="col-md-6">
+        <div class="skill-item">
+          <h5>Bootstrap</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 5 -->
+      <div class="col-md-6">
+        <div class="skill-item">
+          <h5>Advance Basic</h5>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Education Section (3 Cards) -->
+
+
+   <section id="education" class="py-3 ">
+  <div class="container">
+    <h2 class="section-title" style="color: orange;text-align: center;">Education</h2>
+    <div class="row text-center">
+      <!-- Education Card 1 -->
+      <div class="col-md-4 mt-3">
+        <div class="card education-card hover-shadow">
+          <img src="image/sb.png" alt="Education Image" style="height:200px; object-fit: cover;">
+          <div class="card-body">
+            <h6 class="text-white text-center">CLASS: 10th</h6>
+            <h5 class="card-title">Kendriya Vidyalaya No. 1, Ajmer</h5>
+            <p class="card-text">Year: 2021-2022</p>
+          </div>
+        </div>
+      </div>
+      <!-- Education Card 2 -->
+      <div class="col-md-4 mt-3">
+        <div class="card education-card hover-shadow">
+          <img src="image/sb.png" alt="High School Image" style="height:200px; object-fit: cover;">
+          <div class="card-body">
+            <h6 class="text-white text-center">CLASS: 12th</h6>
+            <h5 class="card-title">Kendriya Vidyalaya No. 1, Ajmer</h5>
+            <p class="card-text">Year: 2023-2024</p>
+          </div>
+        </div>
+      </div>
+      <!-- Education Card 3 -->
+      <div class="col-md-4 mt-3">
+        <div class="card education-card hover-shadow">
+          <img src="image/sr.jpg" alt="Certification Image" style="height:200px; object-fit: cover;">
+          <div class="card-body">
+            <h6 class="text-white text-center">BCA</h6>
+            <h5 class="card-title">Star Infotech College</h5>
+            <p class="card-text">Year: 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Hobbies Section (3 Cards) -->
+  <section id="hobbies" class="py-5 mt-5 mb-5"  >
+    <div class="container">
+      <h2 class="section-title">Hobbies</h2>
+      <div class="row" >
+        <div class="col-md-4 mt-3">
+          <div class="card" >
+            <img src="image/che.jpg"  class="card-img-top" alt="Hobby Image 1">
+            <div class="card-body">
+              <h5 class="card-title">CHESS</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="image/sro.webp" class="card-img-top" alt="Hobby Image 2">
+            <div class="card-body">
+              <h5 class="card-title">SHOOTING</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="image/tra.jpg" class="card-img-top" alt="Hobby Image 3">
+            <div class="card-body">
+              <h5 class="card-title">Traveling</h5>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section (3 Cards) -->
+  <section id="project" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row" >
+        <div class="col-md-4 mt-3">
+          <div class="card" >
+            <img src="image/pq.png"  class="card-img-top" alt="Hobby Image 1">
+            <div class="card-body">
+              <h5 class="card-title">cards Avengers </h5>
+               <a href="file:///C:/Users/DELL/Desktop/cards/index.html" download="Hemant_Singh_Profile.docx" >
+                <button class="btn btn-warning">cards Avengers</button>
+             </a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="image/cs.png" class="card-img-top" alt="Hobby Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Cards
+
+              </h5>
+              <a href="file:///C:/Users/DELL/Desktop/project/index.html" download="Hemant_Singh_Profile.docx" >
+                <button class="btn btn-warning">cards</button>
+             </a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="image/ae.png" class="card-img-top" alt="Hobby Image 3">
+            <div class="card-body">
+              <h5 class="card-title">NEW year Project</h5>
+              <a href="file:///C:/Users/DELL/Desktop/new%20year/index.html" download="Hemant_Singh_Profile.docx" >
+                <button class="btn btn-warning">NEW year Project</button>
+             </a>
+              
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section Start -->
+<section class="contact-section mt-5 " id="contact">
+  <div class="container">
+    <div class="row">
+      <!-- Contact Info -->
+      <div class="col-md-6">
+        <h2>Contact Us:</h2>
+        
+        <ul class="contact-info">
+          <li><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:singhhemant2951@gmail.com">singhhemant2945@gmail.com</a></li>
+          <li><i class="fa-solid fa-phone"></i> Phone:- 7733988086</li>
+          <li><i class="fa-solid fa-map-marker-alt"></i> Address: Kundan nagar Ajmer</li>
+        </ul>
+        <div class="social-links">
+          <h3>Follow Us:</h3>
+          <div class="social-icons mt-3">
+  <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+  <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+</div>
+        </div>
+      </div>        
+
+      <!-- Contact Form -->
+      <div class="col-md-6 ">
+        <h2>Get In Touch</h2>
+        <form action="mailto:singhhemant2945@gmail.com" method="POST" enctype="multipart/form-data" >
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" name="name" required >
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Your Message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Footer Section Start -->
+       
+<footer style="background-color: #000; color: white; padding: 20px 0; text-align: center;">
+  <div style="max-width: 900px; margin: auto;">
+    <h3 style="margin-bottom: 10px;">Hemant Singh</h3>
+    <p>Web Developer | BCA Student | Star Infotech College, Ajmer</p>
+    
+    <div class="social-icons mt-3">
+  <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+  <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+  <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+</div>
+        </div>
+
+    <p style="margin-top: 15px; font-size: 14px;">&copy;Email:- singhhemant2954@gmail.com</p>
+  </div>
+</footer>
+</body>
+</html>
